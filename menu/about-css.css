@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: myfont;
+}
+@font-face {
+    font-family: myfont;
+    src: url(../font.ttf);
+}
+.home{
+    padding: 100px 140px;
+}
+.home .section {
+    display:  flex;
+}
+.home .section .col1{
+    width: 40%;
+}
+.home .section .col2{
+    width: 60%;
+}
+.home .section .col2 .about{
+    height: 83%;
+}
+.home .section .col1 img{
+    width: 90%;
+}
+.home .section .col2 h2{
+    font-size: 30px;
+
+}
+@media only screen and (max-width: 600px){
+    .home{
+        padding: 30px 30px;
+    }
+    .home .section {
+        display:  block;
+    }
+    .home .section .col1{
+        width: 100%;
+    }
+    .home .section .col2{
+        width: 100%;
+    }
+    .home .section .col1 img{
+        width: 100%;
+    }
+    .home .section .col2 h2{
+        font-size: 30px;
+    
+    }
+    .home .section .col2 h3{
+        margin-top: 20px;
+    
+    }
+}

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: myfont;
+}
+@font-face {
+    font-family: myfont;
+    src: url(font.ttf);
+}
+.home .section{
+    padding: 60px 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.home .section .img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    background-color: #D9D9D9;
+}
+.home .section h3{
+    font-weight: 100;
+}
+.home .section h2{
+    font-size: 35px;
+    font-weight: 100;
+}
+.home .section .location{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.home .section .location img{
+    text-align: center;
+    width: 30px;
+    height: auto;
+}
+.home .section .location p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.home .section .menu{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    margin-bottom: 7px;
+}
+.home .section .menu p{
+    padding-top: 10px;
+}
+.home .section .takeaway{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    margin-bottom: 7px;
+}
+.home .section .takeaway p{
+    padding-top: 10px;
+}
+.home .section .order{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+.home .section .order p{
+    padding-top: 10px;
+}
+.home .section .social i{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px)  {
+    .home .section{
+    padding: 30px 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.home .section .img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    background-color: #D9D9D9;
+}
+.home .section h3{
+    font-weight: 100;
+}
+.home .section h2{
+    font-size: 35px;
+    font-weight: 100;
+}
+.home .section .location{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.home .section .location img{
+    text-align: center;
+    width: 30px;
+    height: auto;
+}
+.home .section .location p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.home .section .menu{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    margin-bottom: 7px;
+}
+.home .section .menu p{
+    padding-top: 10px;
+}
+.home .section .takeaway{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    margin-bottom: 7px;
+}
+.home .section .takeaway p{
+    padding-top: 10px;
+}
+.home .section .order{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+.home .section .order p{
+    padding-top: 10px;
+}
+.home .section .social i{
+    font-size: 20px;
+}
+}
