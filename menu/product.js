@@ -2,6 +2,9 @@ const menuItems = [
     {
         name: "Italian Pasta",
         image: "food/pasta.png",
+        imagee: "food/pasta.png",
+        imageee: "food/pasta.png",
+        imageeee: "food/pasta.png",
         ingredients: "Cream, Cheese, Doe, Boiling",
         price: 299,
         rating: "4.5 ★",
@@ -10,6 +13,9 @@ const menuItems = [
     {
         name: "Grilled Chicken",
         image: "food/pasta.png",
+        imagee: "food/pasta.png",
+        imageee: "food/pasta.png",
+        imageeee: "food/pasta.png",
         ingredients: "Chicken, Spices, Lemon",
         price: 450,
         rating: "4.7 ★",
@@ -18,6 +24,9 @@ const menuItems = [
     {
         name: "Veggie Salad",
         image: "food/pasta.png",
+        imagee: "food/pasta.png",
+        imageee: "food/pasta.png",
+        imageeee: "food/pasta.png",
         ingredients: "Lettuce, Tomato, Cucumber",
         price: 150,
         rating: "4.3 ★",
@@ -26,6 +35,9 @@ const menuItems = [
     {
         name: "Fried Rice",
         image: "food/pasta.png",
+        imagee: "food/pasta.png",
+        imageee: "food/pasta.png",
+        imageeee: "food/pasta.png",
         ingredients: "Rice, Soy Sauce, Vegetables",
         price: 200,
         rating: "4.6 ★",
@@ -34,6 +46,9 @@ const menuItems = [
     {
         name: "Cold Coffee",
         image: "food/pasta.png",
+        imagee: "food/pasta.png",
+        imageee: "food/pasta.png",
+        imageeee: "food/pasta.png",
         ingredients: "Coffee, Milk, Ice",
         price: 120,
         rating: "4.8 ★",

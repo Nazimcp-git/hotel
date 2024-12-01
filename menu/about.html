@@ -5,22 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Food</title>
     <link rel="stylesheet" href="about-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>
 <body>
    <div class="home">
         <div class="section">
             <div class="col1">
-                <img id="dishImage" src="" alt="">
+                <div class="slider">
+                    <div>
+                        <img id="dishImage1" src="image1.jpg" alt="Dish 1">
+                    </div>
+                    <div>
+                        <img id="dishImage2" src="image2.jpg" alt="Dish 2">
+                    </div>
+                    <div>
+                        <img id="dishImage3" src="image3.jpg" alt="Dish 3">
+                    </div>
+                    <div>
+                        <img id="dishImage4" src="image4.jpg" alt="Dish 4">
+                    </div>
+                </div>
             </div>
             <div class="col2">
-                <h2 id="dishName"></h2>
+                <h2 id="dishName">Delicious Food</h2>
                 <div class="about">
-                    <p id="dishDescription"></p>
+                    <p id="dishDescription">Experience the taste of gourmet dishes crafted to perfection.</p>
                 </div>
-                <h3 id="dishPrice"></h3>
+                <h3 id="dishPrice">$25</h3>
             </div>
         </div>
    </div> 
+
+   <!-- Slick Carousel Scripts -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   <script>
+       $(document).ready(function(){
+           $('.slider').slick({
+               autoplay: true,         // Enables autoplay
+               autoplaySpeed: 3000,    // 3 seconds per slide
+               dots: true,             // Display navigation dots
+               arrows: true,           // Display navigation arrows
+               infinite: true,         // Enables infinite scrolling
+               speed: 500,             // Transition speed
+               slidesToShow: 1,        // Show one slide at a time
+               slidesToScroll: 1,      // Scroll one slide at a time
+           });
+       });
+   </script>
    <script src="about.js"></script>
 </body>
 </html>
