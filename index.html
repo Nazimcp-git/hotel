@@ -15,12 +15,12 @@
             </div>
             <h3>Welcome to</h3>
             <h2>Hotel Name</h2>
-            <div class="location">
+            <div class="location" onclick="locationClick()">
                 <img src="img/map.png" alt="">
                 <p>Location</p>
             </div>
             <div class="menu" onclick="myClick()"><p>Menu</p></div>
-            <div class="takeaway"><p>Takeaway</p></div>
+            <div class="takeaway"><p>Special Menu</p></div>
             <div class="order"><p>Take a Order</p></div>
             <div class="social" style="margin-top: 70px;">
                 <i class="fa-brands fa-facebook"></i>
@@ -34,6 +34,9 @@
 <script>
     function myClick(){
         window.location.href = "/hotel/menu/";
+    }
+    function locationClick(){
+        window.location.href = "https://map.google.com/";
     }
 </script>
 </html>
